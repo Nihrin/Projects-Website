@@ -1,0 +1,29 @@
+.Home {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.logo {
+  height: 150px;
+  border-radius: 50%;
+}
+
+header {
+  padding-top: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: beige;
+  text-align: center;
+}
