@@ -3,21 +3,35 @@
         "id": 1,
         "application": "Crompress",
         "description": "This website enables people to crop and compress their pictures using a UI built in React. The cropping and compression is handled by C++.",
-        "URL": "/Crompress",
-        "picture": "000"
+        "URL": "Crompress",
+        "picture": "001"
     },
     {
         "id": 2,
         "application": "Pinball",
         "description": "Future idea for a pinball game like Pokemon Pinball.",
-        "URL": "/Pinball",
+        "URL": "Pinball",
         "picture": "000"
     },
     {
         "id": 3,
-        "application": "Pinball (again)",
-        "description": "Future idea for a pinball game like Pokemon Pinball.",
-        "URL": "/Pinball",
+        "application": "Your idea",
+        "description": "Any ideas? Hit me up!",
+        "URL": "None",
+        "picture": "000"
+    },
+    {
+        "id": 4,
+        "application": "Template",
+        "description": "I should really make one",
+        "URL": "Template",
+        "picture": "000"
+    },
+    {
+        "id": 5,
+        "application": "Last one",
+        "description": "It works! Cool...",
+        "URL": "Last",
         "picture": "000"
     }
 ]

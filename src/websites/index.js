@@ -1,21 +1,23 @@
-import './website.css';
+import Website from './websites';
 
-const Website = ({ website }) => {
-    return ( 
-        <div className='col-md-6 row'>
-            <div className='col-md-4 image'>
-                <img src={`/images/${website.picture}.png`} alt='Website' />
-            </div>
-            <div className='col-md-7'>
-                <div className='row'>
-                    <h4 className='col-md-12'>{website.application}</h4>
-                </div>
-                <div className='row'>
-                    <h5 className='col-md-12'>{website.description}</h5>
-                </div>
-            </div>
-        </div>
-     );
+const AllWebsites = ({websites}) => {
+    if (websites) {
+        return(
+            websites.map((website, i) => {
+                if (i % 2 === 0) {
+                    return(
+                        <div className='row mt-5'><Website website={website} />
+                        {websites[i + 1] ? (
+                            <Website website={websites[i + 1]} />
+                        ) : null}
+                        </div>
+                    );
+                } 
+                else {return null;}
+            })
+        )
+    }
+    return (<div>No websites can be loaded</div>);
 }
  
-export default Website;
+export default AllWebsites;
